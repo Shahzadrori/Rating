@@ -33,4 +33,20 @@ div.main{
 button{
     padding: 5px;
     font-size: larger;
+    outline: none;
+    border: none;
+    width: 100px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+button:hover{
+    background-color: yellowgreen;
+    color: white;
+}
+button:active{
+    background-color: turquoise;
+    color: tomato;
 }

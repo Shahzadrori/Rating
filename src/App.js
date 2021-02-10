@@ -6,6 +6,7 @@ const App=()=>{
 return(
   <>
     <div className='main'>
+    <h2>Tell us how you like it</h2>
     <img src={Url} alt="Image" />
     <ul className='stars'>
      <li className='star'><i class="likee fa fa-thumbs-up"></i></li>
