@@ -5,4 +5,32 @@
 }
 body{
     background-color: aquamarine;
+    font-family: sans-serif;
+}
+div.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.stars{
+    display: flex;
+    flex-direction: row;
+    background-color: brown;
+    list-style-type: none;
+}
+.star{
+    padding: 10px;
+    font-size: x-large;
+}
+.likee{
+    color: white;
+}
+.likee:hover{
+    color: yellow;
+}
+button{
+    padding: 5px;
+    font-size: larger;
 }
