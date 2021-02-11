@@ -4,8 +4,9 @@
     box-sizing: border-box;
 }
 body{
-    background-color: aquamarine;
     font-family: sans-serif;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,121,44,1) 35%, rgba(0,212,255,1) 100%); 
 }
 div.main{
     display: flex;
@@ -17,8 +18,21 @@ div.main{
 .stars{
     display: flex;
     flex-direction: row;
-    background-color: brown;
     list-style-type: none;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(23,121,9,0.9457983022310487) 65%, rgba(0,212,255,1) 100%); 
+}
+img{
+    -webkit-box-shadow: 5px 5px 15px 0px rgba(64,255,80,0.82), 5px 5px 15px 0px rgba(64,255,80,0.82);
+    box-shadow: 5px 5px 15px 0px rgba(64,255,80,0.82), 5px 5px 15px 0px rgba(64,255,80,0.82);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+h2{
+    margin-bottom: 20px;
 }
 .star{
     padding: 10px;
@@ -36,6 +50,8 @@ button{
     outline: none;
     border: none;
     width: 100px;
+    background-color: yellowgreen;
+    margin-top: 20px;
     border-radius: 10px;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
@@ -47,6 +63,6 @@ button:hover{
     color: white;
 }
 button:active{
-    background-color: turquoise;
-    color: tomato;
+    background-color: #54e346;
+    color: black;
 }
