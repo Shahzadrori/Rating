@@ -23,8 +23,8 @@ div.main{
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(23,121,9,0.9457983022310487) 65%, rgba(0,212,255,1) 100%); 
 }
 img{
-    -webkit-box-shadow: 5px 5px 15px 0px rgba(64,255,80,0.82), 5px 5px 15px 0px rgba(64,255,80,0.82);
-    box-shadow: 5px 5px 15px 0px rgba(64,255,80,0.82), 5px 5px 15px 0px rgba(64,255,80,0.82);
+    -webkit-box-shadow: 5px 5px 15px 0px rgba(64,255,80,0.82), 5px 5px 15px -11px rgba(64,255,80,0.82), 5px 5px 15px -11px rgba(64,255,80,0.82); 
+    box-shadow: 5px 5px 15px 0px rgba(64,255,80,0.82), 5px 5px 15px -11px rgba(64,255,80,0.82), 5px 5px 15px -11px rgba(64,255,80,0.82);
     border-radius: 10px;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
@@ -65,4 +65,19 @@ button:hover{
 button:active{
     background-color: #54e346;
     color: black;
+}
+.output{
+    margin-top: 20px;
+    background-color: #64dfdf;
+    color: white;
+    padding: 10px;
+    width: 200px;
+    -webkit-box-shadow: 5px 5px 16px 1px #000000; 
+    box-shadow: 5px 5px 16px 1px #000000;
+    text-align: center;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
 }

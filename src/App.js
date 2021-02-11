@@ -15,8 +15,8 @@ return(
      <li className='star'><i className="likee fa fa-star"></i></li>
      <li className='star'><i className="likee fa fa-star"></i></li>
     </ul>
-    <h3>ysadfkl</h3>
-    <button>Click Me</button>
+    <h3 className='output'>Rating</h3>
+    <button className='next'>Next</button>
     </div>
   </>
 )
